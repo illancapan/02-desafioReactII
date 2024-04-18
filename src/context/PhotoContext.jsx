@@ -9,7 +9,7 @@ export const PhotoProvider = ({ children }) => {
     const fetchPhotos = async () => {
       try {
         const jsonData = await import("../data/photos.json");
-        console.log("jsonData:", jsonData);
+        console.log("jsonData revision datos:", jsonData);
         setPhotos(jsonData.photos);
       } catch (error) {
         console.error("error photos.json: ", error);
@@ -18,7 +18,7 @@ export const PhotoProvider = ({ children }) => {
 
     fetchPhotos();
   }, []);
-
+  
   return (
     <PhotoContext.Provider
       value={{
