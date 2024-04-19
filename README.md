@@ -1,8 +1,13 @@
-# React + Vite
+Es importante tener en cuenta que al clonar el repositorio, será necesario instalar las dependencias del proyecto utilizando el administrador de paquetes npm. Puedes hacerlo ejecutando el siguiente comando en la terminal:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```bash
+npm install
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este comando instalará todas las dependencias del proyecto, asegurando que estén disponibles para su uso.
+
+
+### Sobre las imágenes y el JSON 📸
+
+Las imágenes están guardadas dentro del proyecto, pero para evitar problemas de visualización, como los causados por las cookies de Chrome, utilice el archivo JSON para gestionar las rutas. ¡Así que no te preocupes si ves la carpeta con todas las imágenes por ahí, es solo para hacer las cosas más suaves! 😉
+
